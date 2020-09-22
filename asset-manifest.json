@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/DIJITEA/BMI_test_task-app/static/css/main.5f361e03.chunk.css",
+    "main.js": "/DIJITEA/BMI_test_task-app/static/js/main.4f2c19b3.chunk.js",
+    "main.js.map": "/DIJITEA/BMI_test_task-app/static/js/main.4f2c19b3.chunk.js.map",
+    "runtime-main.js": "/DIJITEA/BMI_test_task-app/static/js/runtime-main.947129c6.js",
+    "runtime-main.js.map": "/DIJITEA/BMI_test_task-app/static/js/runtime-main.947129c6.js.map",
+    "static/js/2.fa463498.chunk.js": "/DIJITEA/BMI_test_task-app/static/js/2.fa463498.chunk.js",
+    "static/js/2.fa463498.chunk.js.map": "/DIJITEA/BMI_test_task-app/static/js/2.fa463498.chunk.js.map",
+    "index.html": "/DIJITEA/BMI_test_task-app/index.html",
+    "precache-manifest.759e4991863233071c0841748cea6575.js": "/DIJITEA/BMI_test_task-app/precache-manifest.759e4991863233071c0841748cea6575.js",
+    "service-worker.js": "/DIJITEA/BMI_test_task-app/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/DIJITEA/BMI_test_task-app/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.fa463498.chunk.js.LICENSE.txt": "/DIJITEA/BMI_test_task-app/static/js/2.fa463498.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.947129c6.js",
+    "static/js/2.fa463498.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.4f2c19b3.chunk.js"
+  ]
+}
