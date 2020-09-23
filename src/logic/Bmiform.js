@@ -46,11 +46,7 @@ function Bmiform() {
 
     let bmi = (weight / Math.pow(growth * 0.01, 2)).toFixed(2);
 
-    console.log(valuename.toLowerCase())
     let sortid = valuename.toLowerCase() + valuesurname.toLowerCase();
-
-    console.log(sortid)
-    console.log(sortid.charCodeAt(0))
 
     setBlock(
       blockarr.concat([
@@ -117,7 +113,7 @@ function Bmiform() {
             if (a.sortid < b.sortid) {
               return -1;
             }
-            return 0; 
+            return 0;
           })}
         />
       </div>
