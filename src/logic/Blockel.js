@@ -4,7 +4,7 @@ function Blockel({blockarrel}) {
 
 
   return (
-    <li>
+    <li className="Bmiblock">
       {" "}
       <div>
         <h5> {blockarrel.name}</h5>

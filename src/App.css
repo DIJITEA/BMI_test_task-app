@@ -1,38 +1,111 @@
-.App {
-  text-align: center;
+*{
+  margin: 0px;
+  padding: 0px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background-color: rgb(191, 199, 216);
 }
+.bmiform{
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  position: relative;
+  top: 50vh;
+  width: 30vw;
+  height: 40vh;
+  background-color: #555555;
+  box-shadow:  -5px 5px 3px grey;
+  border-radius: 8px;
+  left: 5vw;
+  transform: translate(0%,-50%);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.maipageflex{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.inputform{
+  position: relative;
+  margin-left: 5vw ;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 20vw;
+  height: 2vh;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 3px #ddd
 }
+.mainformpos{
+  position: relative;
+top: 50%;
+transform: translate(0,-50%);
+}
+.mainformpos h4{
+  color: #FFFFFF;
+  position: relative;
+  text-align: center;
+  margin-top: 5px;
+}
+.mainformpos button{
+  position: relative;
+  width: 10vh;
+  height: 5vh;
+  
+  margin-left: 50%;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  border-radius: 4px;
+
+  border: none;
+  background-color: #7c7878;
+  color: #FFFFFF;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  transform: translate(-50%);
+
+}
+.mainformpos select {
+  position: relative;
+  left: 84%;
+  border: none;
+  background-color: #555555;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  transform: translate(-100%);
+}
+.flexfix{
+  position: relative;
+  height: 100vh;
+  width: 50vw;
+}
+.Bmiblock{
+  position: relative;
+  width: 20vh;
+  height: 25vh;
+  margin: 2%;
+  background-color: #555555;
+  list-style: none;
+  border-radius: 4px;
+  box-shadow:  -5px 5px 3px grey;
+}
+.Bmiblock *{
+  position: relative;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  color: #FFFFFF;
+  list-style: none;
+}
+.secpageflex{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  position: relative;
+  overflow: scroll;
+  width: 50vw;
+  height: 102vh;
+}
+.scrollhide{position: relative;
+  overflow: hidden;
+  width: 50vw;
+  height: 100vh;
 }

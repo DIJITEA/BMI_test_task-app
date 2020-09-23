@@ -3,13 +3,15 @@ import Blockel from './Blockel';
 
 function Bmiblock(props){
     return(
-        <ul>
+        <div className="scrollhide">
+        <ul className="secpageflex">
           {props.blockarr.map(blockarrel => {
               if (blockarrel.empty !== 1){
               return <Blockel blockarrel={blockarrel} key={blockarrel.id}/>
               }
            }  )}
         </ul>
+        </div>
     )
 }
 
